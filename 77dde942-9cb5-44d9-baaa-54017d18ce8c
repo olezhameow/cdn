@@ -1,0 +1,139 @@
+{
+  "projectID": "_ofijads3",
+  "lastUpdate": "24.02.24,14:43:22",
+  "title": "Mock data project",
+  "userID": "JohnDoe",
+  "authorID": "JaneDoe",
+  "cards": {
+    "20d25ce1-386d-4d3d-83f3-421258379b4a": {
+      "type": "RADIO",
+      "entryID": "20d25ce1-386d-4d3d-83f3-421258379b4a",
+      "title": "New Card",
+      "xCoord": "997.00",
+      "yCoord": "24.00",
+      "cells": {}
+    },
+    "d98bfea9-a1ad-4be4-9517-cb3501aea002": {
+      "type": "RADIO",
+      "entryID": "d98bfea9-a1ad-4be4-9517-cb3501aea002",
+      "title": "New Card",
+      "xCoord": "0.00",
+      "yCoord": "0.00",
+      "cells": {}
+    },
+    "0fe951cb-d0f0-4277-9914-5d81831ac74e": {
+      "type": "RADIO",
+      "entryID": "0fe951cb-d0f0-4277-9914-5d81831ac74e",
+      "title": "New Card",
+      "xCoord": "28.00",
+      "yCoord": "184.00",
+      "cells": {
+        "9f6b5fc8-2531-4e4e-9903-6d31d8a67738": {
+          "exitID": "dec117ce-83b0-4c57-88c8-476540c997ca",
+          "position": "1",
+          "text": "New Cell",
+          "entryID": "none"
+        },
+        "4ee6a1cd-2759-48c6-960b-382758e92bee": {
+          "exitID": "fc5f51c3-d994-432e-b699-ceaea967201f",
+          "position": "2",
+          "text": "New Cell",
+          "entryID": "none"
+        }
+      }
+    },
+    "4199d169-9fe1-4beb-9591-40184f1ebda9": {
+      "type": "RADIO",
+      "entryID": "4199d169-9fe1-4beb-9591-40184f1ebda9",
+      "title": "New Card",
+      "xCoord": "688.00",
+      "yCoord": "332.00",
+      "cells": {
+        "1a165e01-e2e8-4c6a-bedf-d1fcc421ca85": {
+          "exitID": "1d736453-2b83-47c8-978e-822523e421ba",
+          "position": "1",
+          "text": "New Cell",
+          "entryID": "none"
+        },
+        "0dcd9ff8-808d-4173-81c5-86e02d198275": {
+          "exitID": "6d95ed94-5507-46f1-ad58-2faf27a6a2be",
+          "position": "2",
+          "text": "New Cell",
+          "entryID": "none"
+        },
+        "3cc9a72b-1c33-442b-9305-2a478785dce5": {
+          "exitID": "5067ee02-de46-429a-9a6f-ca3fe8ecceed",
+          "position": "3",
+          "text": "New Cell",
+          "entryID": "none"
+        }
+      }
+    },
+    "200c2c04-c426-425f-b391-20eca59f45dd": {
+      "type": "RADIO",
+      "entryID": "200c2c04-c426-425f-b391-20eca59f45dd",
+      "title": "New Card",
+      "xCoord": "1080.00",
+      "yCoord": "842.50",
+      "cells": {
+        "87e6b817-e429-4710-88b4-43c98262d3b5": {
+          "exitID": "f87be6b7-8fa4-4169-884d-4574b9f4cfd7",
+          "position": "1",
+          "text": "New Cell",
+          "entryID": "none"
+        },
+        "51b1b868-13f6-4152-98dc-fa4e7046f844": {
+          "exitID": "a1c95d8d-d0bd-46ec-a78e-b9537d16a071",
+          "position": "2",
+          "text": "New Cell",
+          "entryID": "none"
+        },
+        "dcff1308-78cd-4267-b037-80c572606b29": {
+          "exitID": "3306bce2-2200-44f1-8820-db1f26ada362",
+          "position": "3",
+          "text": "New Cell",
+          "entryID": "none"
+        },
+        "6f90f247-cc10-4fd4-9ccb-9dfa96272119": {
+          "exitID": "ab98000b-8980-4a7a-a6ad-80e20363592a",
+          "position": "4",
+          "text": "New Cell",
+          "entryID": "none"
+        },
+        "f1094d89-05db-4f97-b040-2063c6dd48e8": {
+          "exitID": "bebfd560-0d90-4784-a31e-beb797ff0728",
+          "position": "5",
+          "text": "New Cell",
+          "entryID": "none"
+        },
+        "2c6d6181-38d1-4ed8-928e-b2f626621a39": {
+          "exitID": "9c96da96-4719-4d49-a1d0-b2f86a74ffca",
+          "position": "6",
+          "text": "New Cell",
+          "entryID": "none"
+        }
+      }
+    },
+    "14f92a4c-4770-4edf-b419-9a9bf807dbcd": {
+      "type": "RADIO",
+      "entryID": "14f92a4c-4770-4edf-b419-9a9bf807dbcd",
+      "title": "New Carddasf adsf ads fasd fasd fasd fasdf asdf  asfd asdf asd fsadf  sdf sdf sd fasd fas fsad fasd fsad fad asdf as fsaf asdfasd fNew Carddasf adsf ads fasd fasd fasd fasdf asdf  asfd asdf asd fsadf  sdf sdf sd fasd fas fsad fasd fsad fad asdf as fsaf asdfasd fNew Carddasf adsf ads fasd fasd fasd fasdf asdf  asfd asdf asd fsadf  sdf sdf sd fasd fas fsad fasd fsad fad asdf as fsaf asdfasd fNew Carddasf adsf ads fasd fasd fasd fasdf asdf  asfd asdf asd fsadf  sdf sdf sd fasd fas fsad fasd fsad fad asdf as fsaf asdfasd f",
+      "xCoord": "505.00",
+      "yCoord": "0.00",
+      "cells": {
+        "35a02b35-98db-4bf2-887e-435c9b7d0cac": {
+          "exitID": "1636968d-9551-4630-bee2-a3dd475b201a",
+          "position": "1",
+          "text": "New Cell",
+          "entryID": "none"
+        },
+        "cc4bdf3c-e2cd-4f5c-b6ca-a2197165bd8f": {
+          "exitID": "2009524c-e401-417c-8329-49c575ed2cba",
+          "position": "2",
+          "text": "New Cell",
+          "entryID": "none"
+        }
+      }
+    }
+  }
+}
