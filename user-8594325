@@ -1,0 +1,19 @@
+{
+  "userID": "9996643",
+  "name": "Admin User",
+  "subscription": true,
+  "points":1250
+  "email": "admin@test.io",
+  "projects": {
+    "1": {
+      "name": "First test",
+      "id": "77dde942-9cb5-44d9-baaa-54017d18ce8c",
+      "createDate": "27.08.2024,14:45"
+    },
+    "2": {
+      "name": "Second test",
+      "id": "d5e1ebe7-7d42-4a44-8be8-ae8486a4031d",
+      "createDate": "27.08.2024,14:45"
+    }
+  }
+}
