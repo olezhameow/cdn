@@ -1,0 +1,157 @@
+builder.js:25 BUILDER_JSON {
+  "surveyId": "77dde942-9cb5-44d9-baaa-54017d18ce8c",
+  "selectedNodeId": null,
+  "nodes": [
+    {
+      "id": "starting-point",
+      "type": "surveyNode",
+      "draggable": true,
+      "position": {
+        "x": 80,
+        "y": 180
+      },
+      "data": {
+        "questionType": "startingPoint",
+        "title": "Точка старта",
+        "description": "С этого блока начинается сценарий.",
+        "options": []
+      },
+      "measured": {
+        "width": 245,
+        "height": 143
+      },
+      "selected": false
+    },
+    {
+      "id": "ending-point",
+      "type": "surveyNode",
+      "draggable": true,
+      "position": {
+        "x": 820,
+        "y": 180
+      },
+      "data": {
+        "questionType": "endingPoint",
+        "title": "Точка завершения",
+        "description": "На этом блоке сценарий заканчивается.",
+        "options": []
+      },
+      "measured": {
+        "width": 269,
+        "height": 143
+      }
+    },
+    {
+      "id": "Czd61KCMU_COHjR1yiHPG",
+      "type": "surveyNode",
+      "position": {
+        "x": 456.098228663446,
+        "y": -331.69404186795487
+      },
+      "data": {
+        "questionType": "multipleChoice",
+        "title": "орпоиори",
+        "description": "",
+        "options": [
+          {
+            "id": "Hb7BsjeTUpFyuaKWZ_C20",
+            "label": "Вариант 1"
+          },
+          {
+            "id": "gcVJWntpYo221I1HjGtWo",
+            "label": "Вариант 2"
+          }
+        ]
+      },
+      "measured": {
+        "width": 240,
+        "height": 208
+      },
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "I660VPKeqKWFZVG6RW4jg",
+      "type": "surveyNode",
+      "position": {
+        "x": 421.9774557165861,
+        "y": 199.61513687600637
+      },
+      "data": {
+        "questionType": "ranking",
+        "title": "Новый вопрос",
+        "description": "",
+        "options": [
+          {
+            "id": "DI-GhufE_I2i2nZF-ZUA5",
+            "label": "Вариант 1"
+          },
+          {
+            "id": "yE9jj8jsWL955kmP56ECz",
+            "label": "Вариант 2"
+          },
+          {
+            "id": "jo2SDUVFrPJrPOs3fuCPT",
+            "label": "Вариант 3"
+          },
+          {
+            "id": "ETfzn5Qp514fGZezj8Kzu",
+            "label": "Вариант 4"
+          }
+        ]
+      },
+      "measured": {
+        "width": 240,
+        "height": 296
+      },
+      "dragging": false,
+      "selected": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "starting-point",
+      "target": "Czd61KCMU_COHjR1yiHPG",
+      "id": "xy-edge__starting-point-Czd61KCMU_COHjR1yiHPG"
+    },
+    {
+      "source": "Czd61KCMU_COHjR1yiHPG",
+      "sourceHandle": "option-Hb7BsjeTUpFyuaKWZ_C20",
+      "target": "ending-point",
+      "id": "xy-edge__Czd61KCMU_COHjR1yiHPGoption-Hb7BsjeTUpFyuaKWZ_C20-ending-point",
+      "selected": true
+    },
+    {
+      "source": "Czd61KCMU_COHjR1yiHPG",
+      "sourceHandle": "option-gcVJWntpYo221I1HjGtWo",
+      "target": "I660VPKeqKWFZVG6RW4jg",
+      "id": "xy-edge__Czd61KCMU_COHjR1yiHPGoption-gcVJWntpYo221I1HjGtWo-I660VPKeqKWFZVG6RW4jg",
+      "selected": false
+    },
+    {
+      "source": "I660VPKeqKWFZVG6RW4jg",
+      "sourceHandle": "option-yE9jj8jsWL955kmP56ECz",
+      "target": "ending-point",
+      "id": "xy-edge__I660VPKeqKWFZVG6RW4jgoption-yE9jj8jsWL955kmP56ECz-ending-point"
+    },
+    {
+      "source": "I660VPKeqKWFZVG6RW4jg",
+      "sourceHandle": "option-jo2SDUVFrPJrPOs3fuCPT",
+      "target": "ending-point",
+      "id": "xy-edge__I660VPKeqKWFZVG6RW4jgoption-jo2SDUVFrPJrPOs3fuCPT-ending-point"
+    },
+    {
+      "source": "I660VPKeqKWFZVG6RW4jg",
+      "sourceHandle": "option-DI-GhufE_I2i2nZF-ZUA5",
+      "target": "Czd61KCMU_COHjR1yiHPG",
+      "id": "xy-edge__I660VPKeqKWFZVG6RW4jgoption-DI-GhufE_I2i2nZF-ZUA5-Czd61KCMU_COHjR1yiHPG",
+      "selected": false
+    },
+    {
+      "source": "I660VPKeqKWFZVG6RW4jg",
+      "sourceHandle": "option-ETfzn5Qp514fGZezj8Kzu",
+      "target": "ending-point",
+      "id": "xy-edge__I660VPKeqKWFZVG6RW4jgoption-ETfzn5Qp514fGZezj8Kzu-ending-point"
+    }
+  ]
+}
