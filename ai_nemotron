@@ -1,0 +1,196 @@
+{
+  "surveyId": "3a4b5c6d-7e8f-9012-3456-7890abcdef12",
+  "selectedNodeId": null,
+  "nodes": [
+    {
+      "id": "starting-point",
+      "type": "surveyNode",
+      "draggable": true,
+      "position": {
+        "x": 80,
+        "y": 180
+      },
+      "data": {
+        "questionType": "startingPoint",
+        "title": "Точка старта",
+        "description": "С этого блока начинается сценарий опроса.",
+        "options": []
+      },
+      "measured": {
+        "width": 245,
+        "height": 143
+      },
+      "selected": false
+    },
+    {
+      "id": "ending-point",
+      "type": "surveyNode",
+      "draggable": true,
+      "position": {
+        "x": 820,
+        "y": 180
+      },
+      "data": {
+        "questionType": "endingPoint",
+        "title": "Точка завершения",
+        "description": "На этом блоке сценарий заканчивается.",
+        "options": []
+      },
+      "measured": {
+        "width": 269,
+        "height": 143
+      }
+    },
+    {
+      "id": "operator-choice",
+      "type": "surveyNode",
+      "position": {
+        "x": 450,
+        "y": 0
+      },
+      "data": {
+        "questionType": "multipleChoice",
+        "title": "Какой оператор мобильной связи вы используете?",
+        "description": "Выберите одного из трех major операторов",
+        "options": [
+          {
+            "id": "opt-mts",
+            "label": "МТС"
+          },
+          {
+            "id": "opt-megafon",
+            "label": "МЕГАФОН"
+          },
+          {
+            "id": "opt-beeline",
+            "label": "БИЛАЙН"
+          }
+        ]
+      },
+      "measured": {
+        "width": 280,
+        "height": 220
+      },
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "mts-question",
+      "type": "surveyNode",
+      "position": {
+        "x": 200,
+        "y": 300
+      },
+      "data": {
+        "questionType": "multipleChoice",
+        "title": "Как вы оцениваете качество связи МТС?",
+        "description": "Выберите одну оценку",
+        "options": [
+          {
+            "id": "opt-mts-continue",
+            "label": "Продолжить"
+          }
+        ]
+      },
+      "measured": {
+        "width": 240,
+        "height": 160
+      },
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "megafon-question",
+      "type": "surveyNode",
+      "position": {
+        "x": 450,
+        "y": 300
+      },
+      "data": {
+        "questionType": "multipleChoice",
+        "title": "Как вы оцениваете качество связи МЕГАФОН?",
+        "description": "Выберите одну оценку",
+        "options": [
+          {
+            "id": "opt-megafon-continue",
+            "label": "Продолжить"
+          }
+        ]
+      },
+      "measured": {
+        "width": 240,
+        "height": 160
+      },
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "beeline-question",
+      "type": "surveyNode",
+      "position": {
+        "x": 700,
+        "y": 300
+      },
+      "data": {
+        "questionType": "multipleChoice",
+        "title": "Как вы оцениваете качество связи БИЛАЙН?",
+        "description": "Выберите одну оценку",
+        "options": [
+          {
+            "id": "opt-beeline-continue",
+            "label": "Продолжить"
+          }
+        ]
+      },
+      "measured": {
+        "width": 240,
+        "height": 160
+      },
+      "dragging": false,
+      "selected": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "starting-point",
+      "target": "operator-choice",
+      "id": "edge-start-to-operator-choice"
+    },
+    {
+      "source": "operator-choice",
+      "sourceHandle": "option-opt-mts",
+      "target": "mts-question",
+      "id": "edge-operator-choice-mts-to-mts-question"
+    },
+    {
+      "source": "operator-choice",
+      "sourceHandle": "option-opt-megafon",
+      "target": "megafon-question",
+      "id": "edge-operator-choice-megafon-to-megafon-question"
+    },
+    {
+      "source": "operator-choice",
+      "sourceHandle": "option-opt-beeline",
+      "target": "beeline-question",
+      "id": "edge-operator-choice-beeline-to-beeline-question"
+    },
+    {
+      "source": "mts-question",
+      "sourceHandle": "option-opt-mts-continue",
+      "target": "ending-point",
+      "id": "edge-mts-question-to-ending"
+    },
+    {
+      "source": "megafon-question",
+      "sourceHandle": "option-opt-megafon-continue",
+      "target": "ending-point",
+      "id": "edge-megafon-question-to-ending"
+    },
+    {
+      "source": "beeline-question",
+      "sourceHandle": "option-opt-beeline-continue",
+      "target": "ending-point",
+      "id": "edge-beeline-question-to-ending"
+    }
+  ]
+}
