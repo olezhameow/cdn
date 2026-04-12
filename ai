@@ -1,0 +1,204 @@
+{
+  "surveyId": "9f8e7d6c-b5a4-3210-fedc-ba9876543210",
+  "selectedNodeId": null,
+  "nodes": [
+    {
+      "id": "starting-point",
+      "type": "surveyNode",
+      "draggable": true,
+      "position": {
+        "x": 80,
+        "y": 180
+      },
+      "data": {
+        "questionType": "startingPoint",
+        "title": "Точка старта",
+        "description": "С этого блока начинается сценарий опроса.",
+        "options": []
+      },
+      "measured": {
+        "width": 245,
+        "height": 143
+      },
+      "selected": false
+    },
+    {
+      "id": "ending-point",
+      "type": "surveyNode",
+      "draggable": true,
+      "position": {
+        "x": 820,
+        "y": 180
+      },
+      "data": {
+        "questionType": "endingPoint",
+        "title": "Точка завершения",
+        "description": "На этом блоке сценарий заканчивается.",
+        "options": []
+      },
+      "measured": {
+        "width": 269,
+        "height": 143
+      }
+    },
+    {
+      "id": "operator-choice",
+      "type": "surveyNode",
+      "position": {
+        "x": 450,
+        "y": 0
+      },
+      "data": {
+        "questionType": "multipleChoice",
+        "title": "Какой оператор мобильной связи вы используете?",
+        "description": "Выберите одного оператора",
+        "options": [
+          {
+            "id": "opt-mts",
+            "label": "МТС"
+          },
+          {
+            "id": "opt-beeline",
+            "label": "Билайн"
+          },
+          {
+            "id": "opt-megafon",
+            "label": "Мегафон"
+          },
+          {
+            "id": "opt-tele2",
+            "label": "Tele2"
+          },
+          {
+            "id": "opt-rt",
+            "label": "Ростелеком"
+          },
+          {
+            "id": "opt-other",
+            "label": "Другой"
+          }
+        ]
+      },
+      "measured": {
+        "width": 260,
+        "height": 240
+      },
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "satisfaction-ranking",
+      "type": "surveyNode",
+      "position": {
+        "x": 450,
+        "y": 300
+      },
+      "data": {
+        "questionType": "ranking",
+        "title": "Оцените важность критериев выбора оператора",
+        "description": "Расположите варианты по важности (самый важный сверху)",
+        "options": [
+          {
+            "id": "crit-price",
+            "label": "Стоимость тарифа"
+          },
+          {
+            "id": "crit-coverage",
+            "label": "Качество сети и покрытие"
+          },
+          {
+            "id": "crit-speed",
+            "label": "Скорость интернета"
+          },
+          {
+            "id": "crit-service",
+            "label": "Качество обслуживания"
+          },
+          {
+            "id": "crit-bonuses",
+            "label": "Бонусы и акции"
+          }
+        ]
+      },
+      "measured": {
+        "width": 280,
+        "height": 320
+      },
+      "dragging": false,
+      "selected": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "starting-point",
+      "target": "operator-choice",
+      "id": "edge-start-to-operator"
+    },
+    {
+      "source": "operator-choice",
+      "sourceHandle": "option-opt-mts",
+      "target": "satisfaction-ranking",
+      "id": "edge-mts-to-ranking"
+    },
+    {
+      "source": "operator-choice",
+      "sourceHandle": "option-opt-beeline",
+      "target": "satisfaction-ranking",
+      "id": "edge-beeline-to-ranking"
+    },
+    {
+      "source": "operator-choice",
+      "sourceHandle": "option-opt-megafon",
+      "target": "satisfaction-ranking",
+      "id": "edge-megafon-to-ranking"
+    },
+    {
+      "source": "operator-choice",
+      "sourceHandle": "option-opt-tele2",
+      "target": "satisfaction-ranking",
+      "id": "edge-tele2-to-ranking"
+    },
+    {
+      "source": "operator-choice",
+      "sourceHandle": "option-opt-rt",
+      "target": "satisfaction-ranking",
+      "id": "edge-rt-to-ranking"
+    },
+    {
+      "source": "operator-choice",
+      "sourceHandle": "option-opt-other",
+      "target": "satisfaction-ranking",
+      "id": "edge-other-to-ranking"
+    },
+    {
+      "source": "satisfaction-ranking",
+      "sourceHandle": "option-crit-price",
+      "target": "ending-point",
+      "id": "edge-price-to-end"
+    },
+    {
+      "source": "satisfaction-ranking",
+      "sourceHandle": "option-crit-coverage",
+      "target": "ending-point",
+      "id": "edge-coverage-to-end"
+    },
+    {
+      "source": "satisfaction-ranking",
+      "sourceHandle": "option-crit-speed",
+      "target": "ending-point",
+      "id": "edge-speed-to-end"
+    },
+    {
+      "source": "satisfaction-ranking",
+      "sourceHandle": "option-crit-service",
+      "target": "ending-point",
+      "id": "edge-service-to-end"
+    },
+    {
+      "source": "satisfaction-ranking",
+      "sourceHandle": "option-crit-bonuses",
+      "target": "ending-point",
+      "id": "edge-bonuses-to-end"
+    }
+  ]
+}
