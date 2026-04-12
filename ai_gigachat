@@ -1,0 +1,342 @@
+{
+  "surveyId": "77dde942-9cb5-44d9-baaa-54017d18ce8c",
+  "selectedNodeId": null,
+  "nodes": [
+    {
+      "id": "starting-point",
+      "type": "surveyNode",
+      "draggable": true,
+      "position": {
+        "x": 80,
+        "y": 180
+      },
+      "data": {
+        "questionType": "startingPoint",
+        "title": "Точка старта",
+        "description": "С этого блока начинается сценарий.",
+        "options": []
+      },
+      "measured": {
+        "width": 245,
+        "height": 143
+      },
+      "selected": false
+    },
+    {
+      "id": "ending-point",
+      "type": "surveyNode",
+      "draggable": true,
+      "position": {
+        "x": 820,
+        "y": 180
+      },
+      "data": {
+        "questionType": "endingPoint",
+        "title": "Точка завершения",
+        "description": "На этом блоке сценарий заканчивается.",
+        "options": []
+      },
+      "measured": {
+        "width": 269,
+        "height": 143
+      }
+    },
+    {
+      "id": "q-mts-1",
+      "type": "surveyNode",
+      "position": {
+        "x": 150,
+        "y": -300
+      },
+      "data": {
+        "questionType": "multipleChoice",
+        "title": "Как вы оцениваете покрытие сети МТС в вашем регионе?",
+        "description": "",
+        "options": [
+          { "id": "mts-cov-1", "label": "Отличное" },
+          { "id": "mts-cov-2", "label": "Хорошее" },
+          { "id": "mts-cov-3", "label": "Удовлетворительное" },
+          { "id": "mts-cov-4", "label": "Плохое" }
+        ]
+      },
+      "measured": { "width": 240, "height": 208 },
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "q-mts-2",
+      "type": "surveyNode",
+      "position": {
+        "x": 150,
+        "y": -150
+      },
+      "data": {
+        "questionType": "multipleChoice",
+        "title": "Пользуетесь ли вы экосистемными сервисами МТС (МТС Music, KION и др.)?",
+        "description": "",
+        "options": [
+          { "id": "mts-eco-1", "label": "Да, регулярно" },
+          { "id": "mts-eco-2", "label": "Иногда" },
+          { "id": "mts-eco-3", "label": "Нет" }
+        ]
+      },
+      "measured": { "width": 240, "height": 208 },
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "q-mts-3",
+      "type": "surveyNode",
+      "position": {
+        "x": 150,
+        "y": 0
+      },
+      "data": {
+        "questionType": "multipleChoice",
+        "title": "Как вы оцениваете скорость мобильного интернета МТС?",
+        "description": "",
+        "options": [
+          { "id": "mts-speed-1", "label": "Очень высокая" },
+          { "id": "mts-speed-2", "label": "Высокая" },
+          { "id": "mts-speed-3", "label": "Средняя" },
+          { "id": "mts-speed-4", "label": "Низкая" }
+        ]
+      },
+      "measured": { {240, 208} },
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "q-mts-4",
+      "type": "surveyNode",
+      "position": {
+        "x": 150,
+        "y": 150
+      },
+      "data": {
+        "questionType": "multipleChoice",
+        "title": "Довольны ли вы тарифами и акциями МТС?",
+        "description": "",
+        "options": [
+          { {id: \"mts-tarif-1\", label: \"Да, полностью\"} },
+          { {id: \"mts-tarif-2\", label: \"В целом да\"} },
+          { {id: \"mts-tarif-3\", label: \"Нет\"} }
+        ]
+      },
+      measured: { width: 240, height: 208 },
+      dragging: false,
+      selected: false
+    },
+    {
+      id: 'q-mts-5',
+      type: 'surveyNode',
+      position: { x: 150, y: 300 },
+      data: {
+        questionType: 'multipleChoice',
+        title: 'Пользуетесь ли вы услугами поддержки МТС через приложение или чат?',
+        description: '',
+        options: [
+          { id: 'mts-sup-1', label: 'Да, часто' },
+          { id: 'mts-sup-2', label: 'Иногда' },
+          { id: 'mts-sup-3', label: 'Нет' }
+        ]
+      },
+      measured: { width: 240, height: 208 },
+      dragging: false,
+      selected: false
+    },
+    {
+      id: 'q-beeline-1',
+      type: 'surveyNode',
+      position: { x: 450, y: -300 },
+      data: {
+        questionType: 'multipleChoice',
+        title: 'Как вы оцениваете покрытие сети Билайн в вашем регионе?',
+        description: '',
+        options: [
+          { id: 'beeline-cov-1', label: 'Отличное' },
+          { id: 'beeline-cov-2', label: 'Хорошее' },
+          { id: 'beeline-cov-3', label: 'Удовлетворительное' },
+          { id: 'beeline-cov-4', label: 'Плохое' }
+        ]
+      },
+      measured: { width: 240, height: 208 },
+      dragging: false,
+      selected: false
+    },
+    {
+      id: 'q-beeline-2',
+       type: 'surveyNode',
+       position: { x: 450, y: -150 },
+       data: {
+         questionType: 'multipleChoice',
+         title: 'Пользуетесь ли вы цифровыми сервисами Билайн (BeeTV, Билайн Книги и др.)?',
+         description: '',
+         options: [
+           { id: 'beeline-dig-1', label: 'Да, регулярно' },
+           { id: 'beeline-dig-2', label: 'Иногда' },
+           { id: 'beeline-dig-3', label: 'Нет' }
+         ]
+       },
+       measured: { width: 240, height: 208 },
+       dragging: false,
+       selected: false
+     },
+     {
+       id: 'q-beeline-3',
+       type: 'surveyNode',
+       position: { x: 450, y: 0 },
+       data: {
+         questionType: 'multipleChoice',
+         title': Как вы оцениваете скорость мобильного интернета Билайн?',
+         description': '',
+         options': [
+           { id': 'beeline-speed-1', label': 'Очень высокая' },
+           { id': 'beeline-speed-2', label': 'Высокая' },
+           { id': 'beeline-speed-3', label': 'Средняя' },
+           { id': 'beeline-speed-4', label': 'Низкая' }
+         ]
+       },
+       measured': { width': 240, height': 208 },
+       dragging': false,
+       selected': false
+     },
+     {
+       id': 'q-beeline-4',
+       type': 'surveyNode',
+       position': { x': 450, y': 150 },
+       data': {
+         questionType': 'multipleChoice',
+         title': 'Довольны ли вы тарифами и акциями Билайн?',
+         description': '',
+         options': [
+           { id': 'beeline-tarif-1', label': 'Да, полностью' },
+           { id': 'beeline-tarif-2', label': 'В целом да' },
+           { id': 'beeline-tarif-3', label': 'Нет' }
+         ]
+       },
+       measured': { width': 240, height': 208 },
+       dragging': false,
+       selected': false
+     },
+     {
+       id': 'q-beeline-5',
+       type': 'surveyNode',
+       position': { x': 450, y': 300 },
+       data': {
+         questionType':'multipleChoice',
+         title':'Пользуетесь ли вы услугами поддержки Билайн через приложение или чат?',
+         description':'',
+         options':[
+           { id':'beeline-sup-1', label':'Да, часто' },
+           { id':'beeline-sup-2', label':'Иногда' },
+           { id':'beeline-sup-3', label':'Нет' }
+         ]
+       },
+       measured:{ width:'240, height:'208},
+       dragging:false,
+       selected:false
+     },
+     {
+       id':'q-megafon-1',
+       type':'surveyNode',
+       position:{ x':'750, y':' -300},
+       data:{
+         questionType':'multipleChoice',
+         title':'Как вы оцениваете покрытие сети МегаФон в вашем регионе?',
+         description':'',
+         options:[
+           { id':'megafon-cov-1', label':'Отличное'},
+           { id':'megafon-cov-2', label':'Хорошее'},
+           { id':'megafon-cov-3', label':'Удовлетворительное'},
+           { id':'megafon-cov-4', label':'Плохое'}
+         ]
+       },
+       measured:{ width':'240, height':'208},
+       dragging:false,
+       selected:false
+     },
+     {
+       id':'q-megafon-2',
+       type':'surveyNode',
+       position:{ x':'750, y':' -150},
+       data:{
+         questionType':'multipleChoice',
+         title':'Пользуетесь ли вы цифровыми сервисами МегаФон (МегаФон ТВ, МегаФон Банк и др.)?',
+         description':'',
+         options:[
+           { id':'megafon-dig-1', label':'Да, регулярно'},
+           { id':'megafon-dig-2', label':'Иногда'},
+           { id':'megafon-dig-3', label':'Нет'}
+         ]
+       },
+       measured:{ width':'240, height':'208},
+       dragging:false,
+       selected:false
+     },
+     {
+       id':'q-megafon-3',
+       type':'surveyNode',
+       position:{ x':'750, y':' 0},
+       data:{
+         questionType':'multipleChoice',
+         title':'Как вы оцениваете скорость мобильного интернета МегаФон?',
+         description':'',
+         options:[
+           { id':'megafon-speed-1', label':'Очень высокая'},
+           { id':'megafon-speed-2', label':'Высокая'},
+           { id':'megafon-speed-3', label':'Средняя'},
+           { id':'megafon-speed-4', label':'Низкая'}
+         ]
+       },
+     measured:{ width':'240, height':'208},
+     dragging:false,
+     selected:false
+   ],
+   {
+     id ':'q-megafon-4',
+     type ':'surveyNode',
+     position :{ x ':'750, y ':'150},
+     data :{
+     questionType :'multipleChoice',
+     title :'Довольны ли вы тарифами и акциями МегаФон?',
+     description :'',
+     options :[
+     {id :'megafon-tarif-1', label :'Да, полностью'},
+     {id :'megafon-tarif-2', label :'В целом да'},
+     {id :'megafon-tarif-3', label :'Нет'}
+   ]
+   ,
+   measured :{ width :'240, height :'208},
+   dragging :false,
+   selected :false
+   }
+   ,
+   {
+     id :'q-megafon-5',
+     type :'surveyNode',
+     position :{ x :'750, y :'300},
+     data :{
+     questionType :'multipleChoice',
+     title :'Пользуетесь ли вы услугами поддержки МегаФон через приложение или чат?',
+     description :'',
+     options :[
+     {id :'megafon-sup-1', label :'Да, часто'},
+     {id :'megafon-sup-2', label :'Иногда'},
+     {id :'megafon-sup-3', label :'Нет'}
+   ]
+   ,
+   measured :{ width :'240, height :'208},
+   dragging :false,
+   selected :false
+   }
+ ]
+ ,
+ edges :[
+   { source :'starting-point', target :'q-op-choice', 
+   sourceHandle :null, targetHandle :null, 
+   dragging :false, selected :false},
+   { source :'q-op-choice','sourceHandle ':null,'target ':'q-op-ranking','targetHandle ':null,'dragging ':false,'selected ':false},
+   { source :'q-op-ranking','sourceHandle ':null,'target ':'ending-point','targetHandle ':null,'dragging ':false,'selected ':false}
+ ]
+}
